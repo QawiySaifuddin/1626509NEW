@@ -14,6 +14,7 @@
 
          <p><asp:Label ID="LabelName" runat="server" Text="Name"></asp:Label></p>
          <p><asp:TextBox ID="TextBoxName" runat="server" Height="25px" Width="360px" MaxLength="20"></asp:TextBox></p>
+            <p><asp:RequiredFieldValidator ID="RequiredFieldValidatorName" runat="server" ErrorMessage="*Please enter your Name" ControlToValidate="TextBoxName"></asp:RequiredFieldValidator></p>
 
          <p><asp:Label ID="LabelEmail" runat="server" Text="Email:"></asp:Label></p>
         <p><asp:TextBox ID="TextBoxEmail" runat="server" Height="25px" Width="360px" MaxLength="50"></asp:TextBox></p>
@@ -21,13 +22,14 @@
         
          <p><asp:Label ID="LabelSubject" runat="server" Text="Subject:"></asp:Label></p>
         <p><asp:TextBox ID="TextBoxSubject" runat="server" Height="25px" Width="360px" MaxLength="30"></asp:TextBox></p>
+         <p><asp:RequiredFieldValidator ID="RequiredFieldValidatorSubject" runat="server" ErrorMessage="*Please enter the Subject of enquiry" ControlToValidate="TextBoxSubject"></asp:RequiredFieldValidator>   </p>
 
         <p><asp:Label ID="LabelMessage" runat="server" Text="Message:"></asp:Label></p>
         <p><asp:TextBox ID="TextBoxMessage" runat="server" Height="235px" Width="600px" MaxLength="150" TextMode="MultiLine"></asp:TextBox></p>
-        <p><asp:RegularExpressionValidator ID="RegularExpressionValidatorMessage" runat="server" ErrorMessage="*Please type-in your enquiry." ControlToValidate="TextBoxMessage" ValidationExpression="^[a-zA-Z\s]+$"></asp:RegularExpressionValidator></p>
+        <p><asp:RequiredFieldValidator ID="RequiredFieldValidatorMsg" runat="server" ErrorMessage="*Please enter your message or enquiry" ControlToValidate="TextBoxMessage"></asp:RequiredFieldValidator></p>
 
         
-         <p><asp:Button ID="ButtonSendEnquiry" runat="server" Text="Send Enquiry" OnClientClick="ButtonSendEnquiry_Click" /></p>
+         <p><asp:Button ID="ButtonSendEnquiry" runat="server" Text="Send Enquiry" OnClick="ButtonSendEnquiry_Click" /></p>
 
          <p><asp:Literal ID="LiteralMessage" runat="server"></asp:Literal></p>
             

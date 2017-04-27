@@ -40,6 +40,15 @@ namespace MINIwerks {
         protected global::System.Web.UI.WebControls.TextBox TextBoxName;
         
         /// <summary>
+        /// RequiredFieldValidatorName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorName;
+        
+        /// <summary>
         /// LabelEmail control.
         /// </summary>
         /// <remarks>
@@ -85,6 +94,15 @@ namespace MINIwerks {
         protected global::System.Web.UI.WebControls.TextBox TextBoxSubject;
         
         /// <summary>
+        /// RequiredFieldValidatorSubject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorSubject;
+        
+        /// <summary>
         /// LabelMessage control.
         /// </summary>
         /// <remarks>
@@ -103,13 +121,13 @@ namespace MINIwerks {
         protected global::System.Web.UI.WebControls.TextBox TextBoxMessage;
         
         /// <summary>
-        /// RegularExpressionValidatorMessage control.
+        /// RequiredFieldValidatorMsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorMessage;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorMsg;
         
         /// <summary>
         /// ButtonSendEnquiry control.

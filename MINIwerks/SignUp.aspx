@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link rel="stylesheet" href="CSS/MINIwerks.css"  type="text/css" />
-    <center>
+    
     <asp:Image ID="banner" runat="server" ImageAlign="AbsMiddle" ImageUrl="Images/minichl.jpg" alt="banner1" AlternateText="bannerMINI" Width="80%"/>
     
 
@@ -19,6 +19,6 @@
     <p><asp:Button ID="Button1" runat="server" Text="Sign-Up" OnClick="Button1_Click"></asp:Button></p>
 
     <asp:Literal ID="litRegisterError" runat="server"></asp:Literal>
-        </center>
+        
 
 </asp:Content>

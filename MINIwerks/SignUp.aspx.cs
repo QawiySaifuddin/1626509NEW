@@ -17,7 +17,7 @@ namespace MINIwerks
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("db_1626509_1626509_co5027");
+            var identityDbContext = new IdentityDbContext("db_1626509_1626509_co5027ConnectionString");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(userStore);
 

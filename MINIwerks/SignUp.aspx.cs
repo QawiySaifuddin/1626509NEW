@@ -17,7 +17,7 @@ namespace MINIwerks
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            var identityDbContext = new IdentityDbContext("db_1626509_1626509_co5027ConnectionString");
+            var identityDbContext = new IdentityDbContext("db_1626509_1626509_co5027");
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(userStore);
 
@@ -25,7 +25,8 @@ namespace MINIwerks
             IdentityResult result = manager.Create(user, TextBoxPassword.Text);
             if (result.Succeeded)
             {
-
+                IdentityRole endUserRole = new IdentityRole("enduser");
+                Server.Transfer("Loginpage.aspx", true);
             }
             else
             {

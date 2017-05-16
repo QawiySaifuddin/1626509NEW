@@ -6,7 +6,7 @@
     
     <asp:Image ID="banner" runat="server" ImageAlign="AbsMiddle" ImageUrl="Images/minichl.jpg" alt="banner1" AlternateText="bannerMINI" Width="720" Height="600"/>
 
-    <asp:FormView ID="FormView1" runat="server" DataSourceID="ProductsDataSource">
+    <asp:FormView ID="FormView1" runat="server" DataSourceID="ProductsDataSource" Width="914px" Height="149px">
         <EditItemTemplate>
             Id:
             <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />

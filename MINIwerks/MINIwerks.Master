@@ -23,7 +23,7 @@
                     <li><a href="SignUp.aspx">Sign Up</a></li>
                     <li><a href="Login.aspx">Login</a></li>
                     <li><a href="contact.aspx">Contact Us</a></li>
-                    <li><a href="admin.aspx">Admin</a></li>
+                    <li><a href="adminpage.aspx">Admin</a></li>
                 </ul>
                     </div>
                 </div>

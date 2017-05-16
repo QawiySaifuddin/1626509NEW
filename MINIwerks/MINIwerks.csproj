@@ -106,6 +106,7 @@
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
     <Content Include="admin.aspx" />
+    <Content Include="adminpage.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Loginpage.aspx" />
     <Content Include="packages.config" />
@@ -150,6 +151,13 @@
     </Compile>
     <Compile Include="admin.aspx.designer.cs">
       <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminpage.aspx.cs">
+      <DependentUpon>adminpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminpage.aspx.designer.cs">
+      <DependentUpon>adminpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>

@@ -8,7 +8,7 @@
     <script src="location.js"></script>
 
      
-    <asp:Image ID="banner" runat="server" ImageUrl="Images/minichl.jpg" AlternateText="bannerMINI"/>
+    <asp:Image ID="banner" runat="server" ImageUrl="Images/minichl.jpg" AlternateText="bannerMINI" Width="720" Height="600"/>
 
      
 

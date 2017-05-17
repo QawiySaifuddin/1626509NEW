@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <link href="CSS/MINIwerks.css" rel="stylesheet" type="text/css" />
-    <asp:Image ID="banner" runat="server" ImageAlign="AbsMiddle" ImageUrl="Images/minichl.jpg" alt="banner1" AlternateText="bannerMINI" Width="100%"/>
+    <asp:Image ID="banner" runat="server" ImageAlign="AbsMiddle" ImageUrl="Images/minichl.jpg" alt="banner1" AlternateText="bannerMINI" Width="720" Height="600"/>
     <h1>OUR HISTORY</h1>
     <asp:Label ID="LabelAboutUs1" runat="server" Text="It first started when a group of families and friends started to own one and started tuning their MINIs, experimenting with all sorts of performance parts and tunings. Sharing knowledge meet after meet. Now, ended up opening a shop that specialises in tuning and bringing in a variety of performance parts that are known all over the world that is best for the MINIs. "></asp:Label>
     <p><asp:Label ID="LabelAboutUscontinue" runat="server" Text="Not only, we specialise in tuning but we are also be able to help other owners in overcoming such problems that they encounter with their MINI."></asp:Label></p>

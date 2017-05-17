@@ -9,10 +9,10 @@
    
     <h1>Featured Products</h1>
 
-        <a href="#"><img src="images/lohen-aem-intake.jpg" alt="aemintake" width="500" height="300" /></a>
-        <a href="#"><img src="images/lohen-mini-bilstein-b14-pro-coilover.jpg" alt="bilsteinb14" width="500" height="300" /></a>
-        <a href="#"><img src="images/jcw-foot-sills-2.jpg" alt="jcwfoot" width="500" height="300" /></a>
-        <a href="#"><img src="images/quicksilver-mini-cooper-s-r56-exhaust-lohen.jpg" alt="quicksilverexhaust" width="500" height="300" /></a>
-        <a href="#"><img src="images/lohen-alta-rear-anti-roll-bar-kit.jpg" alt="altarear" width="500" height="300" /></a>
+        <a href="/productdetails.aspx?Id=1"><img src="images/lohen-aem-intake.jpg" alt="aemintake" width="500" height="300" /></a>
+        <a href="/productdetails.aspx?Id=14"><img src="images/lohen-mini-bilstein-b14-pro-coilover.jpg" alt="bilsteinb14" width="500" height="300" /></a>
+        <a href="/productdetails.aspx?Id=12"><img src="images/jcw-foot-sills-2.jpg" alt="jcwfoot" width="500" height="300" /></a>
+        <a href="/productdetails.aspx?Id=2"><img src="images/quicksilver-mini-cooper-s-r56-exhaust-lohen.jpg" alt="quicksilverexhaust" width="500" height="300" /></a>
+        <a href="/productdetails.aspx?Id=13"><img src="images/lohen-alta-rear-anti-roll-bar-kit.jpg" alt="altarear" width="500" height="300" /></a>
     
 </asp:Content>
